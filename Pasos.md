@@ -6,7 +6,7 @@ Ejecuta el siguiente comando en tu terminal:
 mix new mi_proyecto --module MiProyecto
 cd mi_proyecto
 
-2. Agregar dependencias en mix.exs
+## 2. Agregar dependencias en mix.exs
 Abre el archivo mix.exs y agrega las siguientes dependencias:
 
 elixir
