@@ -1,4 +1,13 @@
-# Guía para Crear un Proyecto Elixir con Ecto y MyXQL
+# Guía para Crear un Proyecto Elixir con Ecto y MySQL
+
+Integrantes:
+-Espinoza Huerta Alejandro 21211938
+-
+-
+
+Elixir es un lenguaje de programación funcional, concurrente y de propósito general, diseñado para construir aplicaciones escalables y mantenibles. Se ejecuta sobre la máquina virtual de Erlang (BEAM), lo que le permite aprovechar las capacidades de concurrencia y distribución de Erlang.
+
+Ecto es una biblioteca de Elixir para interactuar con bases de datos. Proporciona una capa de abstracción sobre el acceso a datos, lo que facilita la manipulación de datos en bases de datos relacionales y no relacionales.
 
 ## 1. Crear un nuevo proyecto Elixir
 Ejecuta el siguiente comando en tu terminal:
