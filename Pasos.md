@@ -100,13 +100,13 @@ defmodule MiProyecto.Repo.Migrations.CreateUsers do
   end
 end
 ```
-8. Ejecutar la migración
+## 8. Ejecutar la migración
 Aplica las migraciones a la base de datos:
 
 ```
 mix ecto.migrate
 ```
-9. Insertar datos en la base de datos
+## 9. Insertar datos en la base de datos
 Abre la consola interactiva y ejecuta:
 
 ```bash
@@ -122,14 +122,14 @@ alias MiProyecto.User
 changeset = User.changeset(%User{}, %{nombre: "Juan", email: "juan@example.com", edad: 25})
 Repo.insert(changeset)
 ```
-10. Verificar los datos insertados
+## 10. Verificar los datos insertados
 Para consultar los registros en la tabla users:
 
 ```
 users = Repo.all(User)
 IO.inspect(users)
 ```
-11. Editar un registro
+## 11. Editar un registro
 Para editar un registro:
 
 ```
@@ -137,14 +137,14 @@ user = Repo.get(MiProyecto.User, id)
 changeset = User.changeset(user, %{nombre: "Nuevo Nombre", email: "nuevo_email@example.com", edad: 30})
 Repo.update(changeset)
 ```
-12. Borrar un registro
+## 12. Borrar un registro
 Para borrar un registro:
 
 ```
 user = Repo.get(MiProyecto.User, id)
 Repo.delete(user)
 ```
-13. Revertir migraciones (si es necesario)
+## 13. Revertir migraciones (si es necesario)
 Si necesitas revertir la última migración:
 ```
 mix ecto.rollback
