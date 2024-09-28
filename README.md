@@ -1,6 +1,5 @@
 # MiProyecto
 
-**TODO: Add description**
 
 ## Installation
 
