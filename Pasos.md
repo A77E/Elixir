@@ -1,9 +1,9 @@
 # Guía para Crear un Proyecto Elixir con Ecto y MySQL
 
 Integrantes:
--Espinoza Huerta Alejandro 21211938
--
--
+- Espinoza Huerta Alejandro 
+- Martinez Nava Blanca Yessenia
+- America Martinez Pérez
 
 Elixir es un lenguaje de programación funcional, concurrente y de propósito general, diseñado para construir aplicaciones escalables y mantenibles. Se ejecuta sobre la máquina virtual de Erlang (BEAM), lo que le permite aprovechar las capacidades de concurrencia y distribución de Erlang.
 
